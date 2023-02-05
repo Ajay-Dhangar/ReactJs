@@ -12,9 +12,22 @@
     ></script>
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
     <title>React ⚛️</title>
+
+    <style>
+      h1{
+        color: green;
+      }
+      p{
+        font-size: 22px;
+        font-style: italic;
+        color: #000;
+      }
+    </style>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+
+    </div>
 
     <script type="text/babel">
       function Header() {
@@ -37,8 +50,8 @@
       function App() {
         return (
           <div>
-            <Header />
-            <Main />
+            <Header /> 
+            <Main /> 
           </div>
         );
       }
